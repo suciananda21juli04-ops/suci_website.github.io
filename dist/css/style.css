@@ -32,7 +32,7 @@
 .navbar-box .menu{
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 15px;
 } 
 
 .navbar-box .menu li{
@@ -350,10 +350,11 @@ footer .social a{
         cursor: pointer;
         opacity: 0;
         transition: all 0.3s ease;
+        z-index: 9999;
     }
 
 .scroll-up.scroll-active {
-    bottom: 40px;
+    bottom: 20px;
     opacity: 1;
 
 }
